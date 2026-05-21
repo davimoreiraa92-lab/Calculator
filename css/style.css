@@ -1,0 +1,98 @@
+body {
+    display: grid;
+    grid-template-rows: 10vh 80vh;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "header"
+    "main";
+    background: #000000;
+    font-family: Arial, sans-serif;
+
+}
+header{
+    background-color: rgb(42, 42, 42);
+    color: white;
+    grid-area: header;
+    text-align: center;
+    border-radius: 25px;
+}
+header span{
+    color: gray;
+}
+main{
+    grid-area: main;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calc {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 20px;
+    width: 260px;
+    border: 1px solid grey;
+    box-shadow: 2px 2px 2px gray;
+}
+
+#display {
+    background: black;
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    padding: 15px;
+    text-align: right;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    overflow-x: auto;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    padding: 15px;
+    font-size: 18px;
+    border: 2px solid goldenrod;
+    border-radius: 37px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.clear{
+    color: aliceblue;
+    background: rgb(116, 116, 116);
+}
+.delete{
+    color: aliceblue;
+    background: rgb(116, 116, 116);
+}
+.equals {
+    color: aliceblue;
+    background: rgb(199, 130, 0);
+    grid-row: span 2;
+}
+.divided{
+    color: aliceblue;
+    background: orange;
+}
+.times{
+    color: aliceblue;
+    background: orange;
+}
+.minus{
+    color: aliceblue;
+    background: orange;
+}
+.plus{
+    color: aliceblue;
+    background: orange;
+}
+
+.zero {
+    grid-column: span 2;
+}
