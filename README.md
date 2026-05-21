@@ -76,7 +76,7 @@ Este projeto foi desenvolvido com foco em:
 1. Clone este repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/calculadora.git
+git clone https://github.com/davimoreiraa92-lab/Calculator.git
 ```
 
 2. Acesse a pasta do projeto:
@@ -198,7 +198,7 @@ This project was developed with a focus on:
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/your-username/calculator.git
+git clone https://github.com/davimoreiraa92-lab/Calculator.git
 ```
 
 2. Navigate to the project folder:
